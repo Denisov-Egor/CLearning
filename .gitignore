@@ -1,0 +1,34 @@
+
+### 2. Создай .gitignore
+
+```bash
+cat > .gitignore <<'EOF'
+# Executables
+*.exe
+*.out
+program
+
+# Object files and libraries
+*.o
+*.a
+*.so
+*.so.*
+
+# Compiler intermediate files
+*.i
+*.s
+
+# Build directories
+build/
+cmake-build-*/
+
+# Debug files
+*.dSYM/
+core
+core.*
+
+# Editor
+*~
+*.swp
+*.swo
+EOF

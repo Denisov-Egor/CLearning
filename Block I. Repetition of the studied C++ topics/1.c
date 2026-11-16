@@ -3,7 +3,7 @@
 int main(void)
 {
   printf("Helloe C23!\n");
-  printf("fastik\n");
+  printf("HI Fastik\n");
 
   return 0;
 }
